@@ -1,0 +1,86 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpunit/phpunit/tests
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:01:19.807408Z
+1
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Extensions
+dir
+
+Regression
+dir
+
+_files
+dir
+
+TextUI
+dir
+
+bootstrap.php
+file
+
+
+
+
+2017-01-19T15:31:25.382120Z
+138b94451592c0b3fdf5664b02efbc0d
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+143
+
+Runner
+dir
+
+Fail
+dir
+
+Framework
+dir
+
+Util
+dir
+

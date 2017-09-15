@@ -1,0 +1,96 @@
+[2017-09-12 15:20:10] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:24:58] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:38:38] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:39:13] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:39:29] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:39:49] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:39:51] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:40:02] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:40:03] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:40:04] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:40:39] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  
+[2017-09-12 15:41:36] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of ParseError given, called in /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/baoo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(ParseError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ParseError))
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/baoo/app/Exceptions/Handler.php:25
+Stack trace:
+#0 {main}  

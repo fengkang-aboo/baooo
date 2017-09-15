@@ -1,0 +1,77 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpunit/phpunit/src
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:01:19.807408Z
+1
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Extensions
+dir
+
+TextUI
+dir
+
+Exception.php
+file
+
+
+
+
+2017-01-19T15:31:24.906127Z
+6d0901a3d39c947efa435bcff77ce674
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+371
+
+Runner
+dir
+
+Framework
+dir
+
+Util
+dir
+

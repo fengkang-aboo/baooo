@@ -1,0 +1,69 @@
+@extends('layout/main')
+@section('content')
+	<!-- main -->
+	<div id="indexpage" v-cloak>
+		<div class="container">
+			<div class="row mt-32">
+				<div class="col-md-12 txt-align-c mh1 mb-30">微营销平台2.0</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="mb-30" src="{{asset('img/img22.jpg')}}" alt="">
+					<div class="mcontent">
+						<p>运营人员通过各类简单易行的设置，可以不必通过技术人员的参与，即可以绑定微信公众号提供在线运营服务，可以生成交互性的H5页面、房产手机网站、在线O2O的活动（活动BAO），帮助项目通过社交媒体传播，实现客户数据的留存。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh2 mb-30">掌上售楼处</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img23.jpg')}}" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh2 mb-30">H5创意工作台</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img24.jpg')}}" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh2 mb-30">微信公众号运营</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img25.png')}}" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row mb-30">
+				<div class="col-md-12">
+					<div class="txt-align-c">
+						<a href="{{url('service/2')}}"><div class="mbtm_more red">返回工具平台</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	var indexVue = new Vue({
+		el:"#indexpage",
+		data:{
+			c1show:false,
+		},
+		methods:{
+			showc1:function() {
+				this.c1show = !this.c1show;
+			}
+		}
+	});
+	</script>
+@endsection

@@ -1,0 +1,74 @@
+@extends('layout/main')
+@section('content')
+	<!-- main -->
+	<div id="indexpage" v-cloak>
+		<div class="container">
+			<div class="row mt-32">
+				<div class="col-md-12 txt-align-c mh1 mb-30">蝶变2.0思考工具</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="mb-30" src="{{asset('img/img19.jpg')}}" alt="">
+					<div class="mcontent">
+						<p>蝶变2.0是一套为广告创意设计者提供疏导创意思维的策略工具，解决市场定位及传播全过程的总览，通过全面对客户需求进行了解定位后，深度发掘客户的特质，并以此为导引，分析产品的市场和消费者群像，进行产品深度分析，深度挖掘出创意产品的时效性。在接触全新项目前期或者中期介入的项目均使用，适合体量较大，开发周期较长的项目使用。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">2赢家营销平台</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img19.png')}}" alt="">
+						<p>运营人员通过各类简单易行的设置，可以不必通过技术人员的参与，即可以绑定微信公众号...</p>
+					</div>
+					<div class="txt-align-c">
+						<a href="{{url('service/3')}}"><div class="mbtm_more">查看详情</div></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img20.png')}}" alt="">
+						<p>分销BAO是从客户录入、自动报备、等渠道管理的全面解决方案，解决了开发商从圈层引流...</p>
+					</div>
+					<div class="txt-align-c">
+						<a href="{{url('service/4')}}"><div class="mbtm_more">查看详情</div></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img21.png')}}" alt="">
+						<p>为客户提供基于活动的用户互动行为分析与跟踪，基于用户行为和用户价值的特征刻画分群...</p>
+					</div>
+					<div class="txt-align-c">
+						<a href="{{url('service/5')}}"><div class="mbtm_more">查看详情</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-30">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<p class="mb-30">黑弧提供的产品和服务涉及房地产项目生命链条的前中后期，从前期的品牌规划、项目包装和策略制定，到销售期的活动引流、渠道管理和自媒体运营，再到销售结束业主入住后的社区运营服务，提供一揽子的全面解决方案和服务支撑。</p>
+						<p class="mb-30">黑弧2赢家营销平台为公司自营团队及所有众包创意服务商的工作平台。在重度垂直领域使用及植入，从而达成最大化项目数据资源引入。</p>
+						<p class="mb-30">黑弧2赢家营销平台是后端基于Java语言+SQL数据库+BI数据挖掘系统，前台基于HTML5（适用于PC、安卓和iOS各类终端）的一套营销管理平台，前端完成营销管理、数据查询、绩效反馈和直复营销多种功能，后端作为“黑弧数据库银行”也就是黑弧的大数据处理中心，完成数据管理、数据挖掘、潜客管理及精准营销功能。通过基于数据的整合构建360度的消费者画像，形成个性化的营销跟进策略和销售线索的追踪模式。有效收集数据并依托于黑弧数据库银行，将整合资源的效益实时化、最大化，为各方决策提供数据支持，实现精准营销。未来将开放应用平台，实现服务方的自主化运营。</p>
+						<p class="mb-30">黑弧2赢家营销平台的先进性在于通过数据挖掘，可以更加有效的了解消费者，从而帮助制定有效的营销策略。在此基础上，两个工具平台（分销BAO、微营销平台）就可以针对性的生产营销传播网站和页面，有效管控渠道推广效果，从而制定更加精准的以微信公众号平台为主的内容制作和活动传播策略。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	var indexVue = new Vue({
+		el:"#indexpage",
+		data:{
+			c1show:false,
+		},
+		methods:{
+			showc1:function() {
+				this.c1show = !this.c1show;
+			}
+		}
+	});
+	</script>
+@endsection

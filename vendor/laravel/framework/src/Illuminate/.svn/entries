@@ -1,0 +1,109 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/laravel/framework/src/Illuminate
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:24:38.388548Z
+3
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Http
+dir
+
+Log
+dir
+
+Hashing
+dir
+
+Container
+dir
+
+Mail
+dir
+
+Session
+dir
+
+Filesystem
+dir
+
+Queue
+dir
+
+Routing
+dir
+
+Bus
+dir
+
+Pagination
+dir
+
+Encryption
+dir
+
+Validation
+dir
+
+Translation
+dir
+
+Contracts
+dir
+
+Auth
+dir
+
+Console
+dir
+
+Cache
+dir
+
+Events
+dir
+
+Database
+dir
+
+Config
+dir
+
+Pipeline
+dir
+
+Foundation
+dir
+
+Redis
+dir
+
+Cookie
+dir
+
+View
+dir
+
+Support
+dir
+

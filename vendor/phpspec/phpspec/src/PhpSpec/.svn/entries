@@ -1,0 +1,190 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpspec/phpspec/src/PhpSpec
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:01:19.807408Z
+1
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Wrapper
+dir
+
+Event
+dir
+
+CodeGenerator
+dir
+
+Matcher
+dir
+
+Message
+dir
+
+Listener
+dir
+
+SpecificationInterface.php
+file
+
+
+
+
+2017-01-19T15:31:32.115029Z
+9f7bc49800a51da3138c88672c1987d8
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+613
+
+ServiceContainer.php
+file
+
+
+
+
+2017-01-19T15:31:32.115029Z
+889a1c46e8ab46c535b81ada88684ff0
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5942
+
+Exception
+dir
+
+Console
+dir
+
+Locator
+dir
+
+Formatter
+dir
+
+Config
+dir
+
+Loader
+dir
+
+IO
+dir
+
+Factory
+dir
+
+Runner
+dir
+
+Resources
+dir
+
+Extension
+dir
+
+ObjectBehavior.php
+file
+
+
+
+
+2017-01-19T15:31:32.115029Z
+269fc1f5fd15691f707f3b6aed2012f3
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4226
+
+Util
+dir
+
+CodeAnalysis
+dir
+
+Process
+dir
+

@@ -1,0 +1,110 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpspec/phpspec/spec/PhpSpec
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:24:38.388548Z
+3
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Wrapper
+dir
+
+Event
+dir
+
+CodeGenerator
+dir
+
+Matcher
+dir
+
+Message
+dir
+
+Listener
+dir
+
+Exception
+dir
+
+Console
+dir
+
+Locator
+dir
+
+Formatter
+dir
+
+ServiceContainerSpec.php
+file
+
+
+
+
+2017-01-19T15:31:32.366025Z
+61b0c4a153f5f9de1110a0d4581b19f3
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2454
+
+Config
+dir
+
+Loader
+dir
+
+Runner
+dir
+
+Util
+dir
+
+Process
+dir
+
+CodeAnalysis
+dir
+

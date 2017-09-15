@@ -1,0 +1,80 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/symfony/finder/Symfony/Component/Finder/Tests
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:27:18.661079Z
+5
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Expression
+dir
+
+Comparator
+dir
+
+FakeAdapter
+dir
+
+Shell
+dir
+
+Fixtures
+dir
+
+Iterator
+dir
+
+FinderTest.php
+file
+
+
+
+
+2017-01-19T15:31:33.758006Z
+6d5146ea88208d3fa0349e01dd7e11a5
+2017-01-19T15:27:18.661079Z
+5
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31800
+

@@ -1,0 +1,39 @@
+@extends('layout/main')
+@section('content')
+	<!-- main -->
+	<div id="indexpage" v-cloak>
+		<div class="container">
+			<div class="row mt-32">
+				<div class="col-md-12 txt-align-c mh1 mb-30">2WinLife CRM管理平台</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="mb-30" src="{{asset('img/img27.jpg')}}" alt="">
+					<div class="mcontent mt-32">
+						<p>为客户提供基于活动的用户互动行为分析与跟踪，基于用户行为和用户价值的特征刻画分群，对不同价值和行为用户群的营销建议等，从目标客户选择到营销效果评估，有效支撑在房地产互动营销中的各项数据服务，实现营销活动的最优化结果。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-30">
+				<div class="col-md-12">
+					<div class="txt-align-c">
+						<a href="{{url('service/2')}}"><div class="mbtm_more red">返回工具平台</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	var indexVue = new Vue({
+		el:"#indexpage",
+		data:{
+			c1show:false,
+		},
+		methods:{
+			showc1:function() {
+				this.c1show = !this.c1show;
+			}
+		}
+	});
+	</script>
+@endsection

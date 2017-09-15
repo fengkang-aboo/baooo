@@ -1,0 +1,73 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/symfony
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:27:18.661079Z
+5
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+var-dumper
+dir
+
+http-foundation
+dir
+
+filesystem
+dir
+
+debug
+dir
+
+routing
+dir
+
+polyfill-php56
+dir
+
+security-core
+dir
+
+http-kernel
+dir
+
+translation
+dir
+
+yaml
+dir
+
+console
+dir
+
+polyfill-util
+dir
+
+event-dispatcher
+dir
+
+finder
+dir
+
+process
+dir
+

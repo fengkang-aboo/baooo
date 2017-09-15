@@ -1,0 +1,130 @@
+@extends('layout/main')
+@section('content')
+	<!-- main -->
+	<div id="indexpage" v-cloak>
+		<div class="index_banner mb-10">
+			<div class="swiper-container">
+				<div class="list swiper-wrapper">
+					<div class="item swiper-slide"><img src="{{asset('img/banner1.jpg')}}" alt=""></div>
+					<div class="item swiper-slide"><img src="{{asset('img/banner1.jpg')}}" alt=""></div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="ctrl clearfix">
+					<div class="up"></div>
+					<div class="down"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">黑弧定位</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<p>黑弧立足于房地产产业链，专注于以社区家庭为核心的中国高端耐用消费品领域，在多年的策略创意积累及不断的研究分析下，公司自主研发了“高价值品类360关系传播模型”、“蝶变360”以及“数字行销360”等独有的策略创意工具，公司具备多年稳定的创意人员团队和互联网技术研发团队，以整合行销、品牌策划、圈层体验行销、数据行销及文化内容体验行销等多种服务内容，面向客户提供服务。公司通过与开发商、相关社区及高端价值消费品牌的体验式沟通、以及行业典型案例传播等多种方式开展业务，收取服务费、制作费、公关活动、数据库运营费等，实现与客户的多方共赢。</p>
+						<p>黑弧基于多年的行业深耕经验，为高端价值品重度垂直领域之住宅地产、商业地产、文旅地产等领域中的知名企业，提供从项目品牌创意传播、数字整合@{{this.c1show?'':'...'}}</p>
+						<p v-show="c1show">行销全案输出服务，从规划产品包装及推广策略（售前），项目的线上展示（个人电脑、手机、平板电脑）线下案场体验、自媒体运营、数字行销渠道化终端化解决方案（售中），再到项目入驻之后的社区服务平台的建设及运营服务（售后）。在公司自有创意传播服务和互联网技术团队的产品和技术解决方案的支撑下，提供全案创意传播＋内容＋数字整合实效行销全程服务。并在此基础上，以房地产高端购房客户及社区业主为依托的精准数据运营而建立未来的媒体投放平台，为下一步提供“汽车、银行金融品牌”、“以家为核心的高端价值耐用品”这一重度垂直领域提供集文化内容产品＋创意360传播＋数字实效行销服务。以“最丰富的创意策划、最快的反应速度、最好的质量控制、最有效 的成本控制”为服务目标,依托“优秀的策略创意+高效的执行管理”的核心竞争优势,为客户提供从营销策略、创意策划到执行管理的整合营销服务。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c">
+					<div class="mbtm_more" @click="this.showc1()">@{{this.c1show?'折叠全文':'展开全文'}}</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">广告奖项</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img1.jpg')}}" alt="">
+						<p>公司的专业一路收获行业声誉和荣誉，其中2011年和万科集团共同打造的案例“优乐社区”，“史上最牛维修工”，荣获全球实效类别最高奖项“艾菲奖”大中华区“高端产品类别”的中国区金奖以及小预算数字行销的铜奖案例。</p>
+						<p>2014年，黑弧多个项目荣获长城奖。其中，银奖三个、铜奖三个、优秀作品两个、最佳文案奖一个。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">20周年发布会</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img2.jpg')}}" alt="">
+						<p>公司的专业一路收获行业声誉和荣誉，其中2011年和万科集团共同打造的案例“优乐社区”，“史上最牛维修工”，荣获全球实效类别最高奖项“艾菲奖”大中华区“高端产品类别”的中国区金奖以及小预算数字行销的铜奖案例。</p>
+						<p>2014年，黑弧多个项目荣获长城奖。其中，银奖三个、铜奖三个、优秀作品两个、最佳文案奖一个。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">上市新三板</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent txt-align-c">
+						<img class="mb-30" src="{{asset('img/img3.jpg')}}" alt="">
+						<p>预计2017年第一季后申报创新层，目前公司条件合规创新层第二条规定。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">2赢家营销平台</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img4.jpg')}}" alt="">
+						<p>2赢家营销平台为黑弧自营团队及所有众包创意服务商的工作平台。在三大重度垂直领域广泛使用及植入，从而达成最大化项目数据资源引入。互动营销核心应用平台，是基于微信公众平台&APP开发的移动互联营销工具平台，提供分销BAO、活动BAO等多样化的应用产品。有效收集数据并依托于黑弧数据库银行，将整合资源的效益实时化、最大化，为各方决策提供数据支持，实现精准营销。未来将开放应用平台，实现服务方的自主化运营。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 txt-align-c mh1 mb-30">摘星计划、招聘</div>
+			</div>
+			<div class="row mb-30">
+				<div class="col-md-12">
+					<div class="mcontent">
+						<img class="mb-30" src="{{asset('img/img5.jpg')}}" alt="">
+						<p>黑弧数码的员工，相互称之为“伙伴”，我们矢志以专业为核心，以提升客户整体传播效率为任务，成为客户不可缺乏的整合传播行销伙伴。这是一个鲜活的集体，二十年来，除了在各大广告节上获奖众多之外，年度各类实力地产广告公司评奖均有斩获，在未来，我们将以创见和整合能力形成核心竞争力，推动中国地产品牌前行。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(function(){
+		window.indexBannerSwiper = new Swiper('.index_banner .swiper-container', {
+			autoplay: 5000,
+			pagination : '.swiper-pagination',
+		});
+		$('.index_banner .ctrl .up').click(function(){
+			if(indexBannerSwiper.isBeginning){
+				indexBannerSwiper.slideTo(indexBannerSwiper.slides.length-1);
+			}else{
+				indexBannerSwiper.slidePrev();
+			}
+			indexBannerSwiper.startAutoplay();
+		});
+		$('.index_banner .ctrl .down').click(function(){
+			if(indexBannerSwiper.isEnd){
+				indexBannerSwiper.slideTo(0);
+			}else{
+				indexBannerSwiper.slideNext();
+			}
+			indexBannerSwiper.startAutoplay();
+		});
+	});
+	var indexVue = new Vue({
+		el:"#indexpage",
+		data:{
+			c1show:false,
+		},
+		methods:{
+			showc1:function() {
+				this.c1show = !this.c1show;
+			}
+		}
+	});
+	</script>
+@endsection

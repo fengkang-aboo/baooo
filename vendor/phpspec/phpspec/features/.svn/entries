@@ -1,0 +1,61 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpspec/phpspec/features
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:01:19.807408Z
+1
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+extensions
+dir
+
+exception_handling
+dir
+
+formatter
+dir
+
+code_generation
+dir
+
+config
+dir
+
+matchers
+dir
+
+runner
+dir
+
+construction
+dir
+
+invalid_usage
+dir
+
+options
+dir
+
+bootstrap
+dir
+

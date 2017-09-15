@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html @section('backgroundcolor') style="background-color:#fff;" @show>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{$page_title or ""}}</title>
+		<meta name="Keywords" content="{{$page_keywords or ''}}">
+		<meta name="Description" content="{{$page_desc or ''}}">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	    <meta property="qc:admins" content="255124076761417312163757" />
+	    <meta property="wb:webmaster" content="a7accee3f90b07a1" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	    <meta name="apple-mobile-web-app-title" content=""/>
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta http-equiv="x-rim-auto-match" content="none" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="48x48" href="{{asset('img/logo2.png')}}" /> -->
+		<!-- <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
+		<link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon"> -->
+		<link rel="stylesheet" href="{{asset('css/reset.css')}}" />
+		<link rel="stylesheet" href="{{asset('css/base.css')}}" />
+		<link rel="stylesheet" href="{{asset('css/idangerous.swiper.css')}}" />
+		<link rel="stylesheet" href="{{asset('css/snackbar.min.css')}}" />
+		<link rel="stylesheet" href="{{asset('css/vue.datepicker.min.css')}}" />
+		<link rel="stylesheet" href="{{asset('css/index.css')}}" />
+		<script type="text/javascript" src="{{asset('js/jquery-1.7.2.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/jquery.validate.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/messages_zh.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/jquery.form.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/snackbar.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/idangerous.swiper.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/vue.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/vue-validator.min.js')}}"></script>
+		<script type="text/javascript" src="{{asset('js/vue.datepicker.min.js')}}"></script>
+	</head>
+<body @section('backgroundcolor') style="background-color:#fff;" @show >
+	<div class="topheader">
+		<div class="nav clearfix">
+			<div class="container">
+				<div class="item"><a href="{{url('/')}}"><img src="{{asset('img/logo20.png')}}" class="logo" alt=""></a></div>
+				<div class="item {{\Request::is('/')?'on':''}}"><a href="{{url('/')}}">首页</a></div>
+				<div class="item {{\Request::is('blackarc20')?'on':''}}"><a href="{{url('/blackarc20')}}">黑弧20年</a></div>
+				<div class="item {{\Request::is('blackarc360')?'on':''}}"><a href="{{url('blackarc360')}}">360°整合行销</a></div>
+				<div class="item menu {{\Request::is('service/*')?'on':''}}">
+					服务系统
+					<div class="submenu">
+						<div class="item"><a href="{{url('service/1')}}">服务系统</a></div>
+						<div class="item"><a href="{{url('service/2')}}">工具平台</a></div>
+					</div>
+				</div>
+				<div class="item menu {{\Request::is('culture/*')?'on':''}}">
+					黑弧文化
+					<div class="submenu">
+						<div class="item"><a href="{{url('culture/1')}}">黑弧文化</a></div>
+						<div class="item"><a href="#">悦文化越生活</a></div>
+					</div>
+				</div>
+				<div class="item {{\Request::is('top/*')?'on':''}}"><a href="{{url('top/index')}}">案例</a></div>
+				<div class="item {{\Request::is('goods/*')?'on':''}}"><a href="{{url('goods/index')}}">招聘</a></div>
+				<div class="item {{\Request::is('article/*')?'on':''}}"><a href="{{url('article/index')}}">联系我们</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		@yield('content')
+	</div>
+	@include('common/footer')
+	<script type="text/javascript" src="{{asset('js/application.js')}}"></script>
+	<script>
+	function sb(option){
+		var sboption = {
+			actionText:'',
+			actionTextColor: '#f66496',
+			pos:'top-center'
+		};
+		if(typeof option == 'string'){
+			sboption.text = option;
+		}else if(typeof option == 'object'){
+			$.extend(sboption,option);
+		}
+		Snackbar.show(sboption);
+	}
+	$(function() {
+		$.ajaxSetup({
+		    headers: { 'X-CSRF-TOKEN' : '{{ csrf_token() }}' }
+		});
+	});
+	</script>
+</body>
+</html>

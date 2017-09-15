@@ -1,0 +1,40 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+//Route::post('/ueditorUpload','Upload\UeditorUploadController@index');
+Route::post('/ckeditorupload','Upload\CkeditorUploadController@upload');
+
+Route::group(['middleware'=>'csrf'],function(){
+
+	Route::get("search","IndexController@search");
+
+	Route::post('/uploadImg','Upload\ImgController@upload');
+	Route::post('/uploadFile','Upload\ImgController@uploadFile');
+
+	Route::get('/', 'IndexController@index');
+	Route::get('/blackarc20', 'IndexController@blackarc20');
+	Route::get('/blackarc360', 'IndexController@blackarc360');
+	Route::get('/service/1', 'IndexController@service1');
+	Route::get('/service/2', 'IndexController@service2');
+	Route::get('/service/3', 'IndexController@service3');
+	Route::get('/service/4', 'IndexController@service4');
+	Route::get('/service/5', 'IndexController@service5');
+	Route::get('/culture/1', 'IndexController@culture1');
+
+
+
+});
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+]);
+

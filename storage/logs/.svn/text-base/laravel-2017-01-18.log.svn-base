@@ -1,0 +1,40 @@
+[2017-01-18 18:03:18] local.ERROR: ErrorException: file_put_contents(/usr/local/www/chukeol/www/storage/framework/sessions/c75c7e7bd6ecb618b7a3f8253b36f61348b66ea9): failed to open stream: No such file or directory in /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/local/www/...', 75, Array)
+#1 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(75): file_put_contents('/usr/local/www/...', 'a:4:{s:6:"_toke...', 2)
+#2 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(70): Illuminate\Filesystem\Filesystem->put('/usr/local/www/...', 'a:4:{s:6:"_toke...', true)
+#3 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Store.php(255): Illuminate\Session\FileSessionHandler->write('c75c7e7bd6ecb61...', 'a:4:{s:6:"_toke...')
+#4 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(89): Illuminate\Session\Store->save()
+#5 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#6 /usr/local/www/chukeol/www/public/index.php(57): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 {main}  
+[2017-01-18 18:03:36] local.ERROR: ErrorException: file_put_contents(/usr/local/www/chukeol/www/storage/framework/sessions/c75c7e7bd6ecb618b7a3f8253b36f61348b66ea9): failed to open stream: No such file or directory in /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/local/www/...', 75, Array)
+#1 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(75): file_put_contents('/usr/local/www/...', 'a:3:{s:6:"_toke...', 2)
+#2 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(70): Illuminate\Filesystem\Filesystem->put('/usr/local/www/...', 'a:3:{s:6:"_toke...', true)
+#3 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Store.php(255): Illuminate\Session\FileSessionHandler->write('c75c7e7bd6ecb61...', 'a:3:{s:6:"_toke...')
+#4 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(89): Illuminate\Session\Store->save()
+#5 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#6 /usr/local/www/chukeol/www/public/index.php(57): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 {main}  
+[2017-01-18 18:03:37] local.ERROR: ErrorException: file_put_contents(/usr/local/www/chukeol/www/storage/framework/sessions/c75c7e7bd6ecb618b7a3f8253b36f61348b66ea9): failed to open stream: No such file or directory in /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/local/www/...', 75, Array)
+#1 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(75): file_put_contents('/usr/local/www/...', 'a:4:{s:6:"_toke...', 2)
+#2 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(70): Illuminate\Filesystem\Filesystem->put('/usr/local/www/...', 'a:4:{s:6:"_toke...', true)
+#3 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Store.php(255): Illuminate\Session\FileSessionHandler->write('c75c7e7bd6ecb61...', 'a:4:{s:6:"_toke...')
+#4 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(89): Illuminate\Session\Store->save()
+#5 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#6 /usr/local/www/chukeol/www/public/index.php(57): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 {main}  
+[2017-01-18 20:51:33] local.ERROR: ErrorException: file_put_contents(/usr/local/www/chukeol/www/storage/framework/sessions/c75c7e7bd6ecb618b7a3f8253b36f61348b66ea9): failed to open stream: No such file or directory in /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/usr/local/www/...', 75, Array)
+#1 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(75): file_put_contents('/usr/local/www/...', 'a:4:{s:6:"_toke...', 2)
+#2 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(70): Illuminate\Filesystem\Filesystem->put('/usr/local/www/...', 'a:4:{s:6:"_toke...', true)
+#3 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Store.php(255): Illuminate\Session\FileSessionHandler->write('c75c7e7bd6ecb61...', 'a:4:{s:6:"_toke...')
+#4 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(89): Illuminate\Session\Store->save()
+#5 /usr/local/www/chukeol/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#6 /usr/local/www/chukeol/www/public/index.php(57): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 {main}  

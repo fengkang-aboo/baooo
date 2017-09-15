@@ -1,0 +1,162 @@
+<?php namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+
+class IndexController extends Controller {
+
+	/*
+	|--------------------------------------------------------------------------
+	| Welcome Controller
+	|--------------------------------------------------------------------------
+	|
+	| This controller renders the "marketing page" for the application and
+	| is configured to only allow guests. Like most of the other sample
+	| controllers, you are free to modify or remove it as you desire.
+	|
+	*/
+
+	/**
+	 * Create a new controller instance.
+	 *
+	 * @return void
+	 */
+	public function __construct()
+	{
+		//$this->middleware('guest');
+	}
+
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function test()
+	{
+		//$checkstep = \App\Checkstep::find(34);
+		//dump($checkstep->project->checkedApplicants()[0]->id);
+
+		$user = \App\User::find(2);
+		$user->projectFinishAvg();
+
+	}
+	public function index()
+	{
+		$this->data['in'] = 'w';
+		return view('index',$this->data);
+		
+	}
+	public function blackarc20()
+	{
+		$this->data['in'] = 'w';
+		return view('blackarc20',$this->data);
+		
+	}
+	public function blackarc360()
+	{
+		$this->data['in'] = 'w';
+		return view('blackarc360',$this->data);
+		
+	}
+	public function culture1()
+	{
+		$this->data['in'] = 'w';
+		return view('culture1',$this->data);
+		
+	}
+	public function service1()
+	{
+		$this->data['in'] = 'w';
+		return view('service1',$this->data);
+		
+	}
+	public function service2()
+	{
+		$this->data['in'] = 'w';
+		return view('service2',$this->data);
+		
+	}
+	public function service3()
+	{
+		$this->data['in'] = 'w';
+		return view('service3',$this->data);
+		
+	}
+	public function service4()
+	{
+		$this->data['in'] = 'w';
+		return view('service4',$this->data);
+		
+	}
+	public function service5()
+	{
+		$this->data['in'] = 'w';
+		return view('service5',$this->data);
+		
+	}
+	public function search(Request $request){
+		$keyword = $request->input('s');
+		$this->data['keyword'] = $keyword;
+		$this->data['projects']= \App\Project::where('title','like',"%".$keyword."%")->paginate(5);
+		$this->data['collections']= \App\Collection::where('title','like',"%".$keyword."%")->paginate(5);
+		$this->data['users']= \App\User::where('username','like',"%".$keyword."%")->orWhere('tel','like',"%".$keyword."%")->paginate(5);
+		$this->data['works']= \App\Work::where('desc','like',"%".$keyword."%")->paginate(8);
+
+		$this->data['tab'] = 1;
+		if($this->data['projects']->count() >0){
+			$this->data['tab'] = 3;
+		}
+		if($this->data['collections']->count() >0){
+			$this->data['tab'] = 3;
+		}
+		if($this->data['users']->count() >0){
+			$this->data['tab'] = 2;
+		}
+		if($this->data['works']->count() >0){
+			$this->data['tab'] = 1;
+		}
+		return view('search',$this->data);
+	}
+	public function registercode()
+	{
+		$tel = \Request::input('tel');
+		$code = rand4number(); 
+		$smscode = \App\Smscode::firstOrCreate(['tel'=>$tel]);
+		$smscode->code = $code;
+		$smscode->sms = "您的验证码是：".$code."。请不要把验证码泄露给其他人。";
+		$smscode->save();
+		$res = sendSms($tel,"您的验证码是：".$code."。请不要把验证码泄露给其他人。");
+		$res = xml_to_array($res);
+		if($res['SubmitResult']['code'] == '2'){
+			return array('status'=>1,'msg'=>'success','data'=>null);
+		}else if($res['SubmitResult']['code'] == '4081'){
+			return array('status'=>0,'msg'=>'同一手机号一分钟之内发送超过1条','data'=>null);
+		}else{
+			return array('status'=>0,'msg'=>'发送失败请稍后重试','data'=>null);
+		}
+	}
+	public function checktelcode(){
+		$tel = \Request::input('tel');
+		$telcode = \Request::input('telcode');
+		if(empty($tel)||empty($telcode)){
+			return 'false';
+		}
+		$count = \App\Smscode::where(['tel'=>$tel,'code'=>$telcode])->count();
+		return $count >= 1?"true":"false";
+
+	}
+	public function checkregisted(){
+		$tel = \Request::input('tel');
+		$username = \Request::input('username');
+		if(empty($tel) && empty($username)){
+			return "false";
+		}
+		if(!empty($tel) && \App\User::where(['tel'=>$tel])->count() > 0){
+			return "false";
+		}
+		if(!empty($username) && \App\User::where(['username'=>$username])->count() > 0){
+			return "false";
+		}
+		return "true";
+
+	}
+
+}

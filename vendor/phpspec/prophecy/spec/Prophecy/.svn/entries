@@ -1,0 +1,123 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/phpspec/prophecy/spec/Prophecy
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:01:19.807408Z
+1
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Prediction
+dir
+
+Argument
+dir
+
+ProphetSpec.php
+file
+
+
+
+
+2017-01-19T15:31:32.714020Z
+5119ac6ffefff21334dadbda5c5bfd02
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2901
+
+ArgumentSpec.php
+file
+
+
+
+
+2017-01-19T15:31:32.714020Z
+afeb64de3c51a7ffa77c9e3e92481673
+2017-01-19T15:01:19.807408Z
+1
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3434
+
+Comparator
+dir
+
+Prophecy
+dir
+
+Call
+dir
+
+Doubler
+dir
+
+Util
+dir
+
+Exception
+dir
+
+Promise
+dir
+

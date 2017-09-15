@@ -1,0 +1,85 @@
+.downloadwrp{
+	width: 960px;
+	margin: 0 auto;
+	padding: 140px 0px;
+	position: relative;
+}
+.downloadwrp .ic_home{
+	position: absolute;
+	top: 45px;
+	left: 45px;
+}
+.downloadwrp .iphoneappwrp{
+	padding: 0px 140px;
+}
+.downloadwrp .btnwrp{
+
+}
+.downloadwrp .w_laosiji{
+	margin:  0px auto 20px auto;
+}
+.downloadwrp .w_luyifa{
+	margin:  100px auto 20px auto;
+}
+.downloadwrp .dl_laosiji_ios{
+	margin:  0px auto 20px auto;
+}
+.downloadwrp .dl_laosiji_android{
+	margin:  0px auto 20px auto;
+}
+
+.downloadwrp .dl_luyifa_android{
+	margin:  10px 10px;
+}
+.downloadwrp .dl_luyifa_ios{
+	margin:  10px 10px;
+}
+
+.mobile.downloadwrp{
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+}
+.mobile.downloadwrp .ic_home{
+	position: absolute;
+	width: 22.5px;
+	height: 22.5px;
+	top: 20px;
+	left: 20px;
+}
+.mobile.downloadwrp .iphoneapp{
+	width: 200px;
+	margin: 60px auto;
+}
+.mobile.downloadwrp .btnwrp{
+
+}
+.mobile.downloadwrp .w_laosiji{
+	width: 200px;
+	margin:  0px auto 20px auto;
+}
+.mobile.downloadwrp .w_luyifa{
+	margin:  0px auto 20px auto;
+	width: 200px;
+}
+.mobile.downloadwrp .dl_laosiji_ios{
+	margin:  0px auto 10px auto;
+	width: 140px;
+}
+.mobile.downloadwrp .dl_laosiji_android{
+	margin:  0px auto 10px auto;
+	width: 140px;
+}
+
+.mobile.downloadwrp .dl_luyifa_android{
+	width: 90px;
+	margin: 0px;
+}
+.mobile.downloadwrp .dl_luyifa_ios{
+	width: 90px;
+	margin: 0px 20px 0px 0px;	
+}
+.mobile.downloadwrp .luyifabtnwrp{
+	width: 200px;
+	margin: 0 auto;
+}

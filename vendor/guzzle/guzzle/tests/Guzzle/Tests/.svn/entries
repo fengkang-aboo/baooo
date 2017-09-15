@@ -1,0 +1,101 @@
+10
+
+dir
+5
+file:///opt/svndata/www.baooo.cn/vendor/guzzle/guzzle/tests/Guzzle/Tests
+file:///opt/svndata/www.baooo.cn
+
+
+
+2017-01-19T15:24:38.388548Z
+3
+baooo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32323633-6a4f-48cb-8e17-8cfd314ea955
+
+Http
+dir
+
+Service
+dir
+
+Batch
+dir
+
+Log
+dir
+
+GuzzleTestCase.php
+file
+
+
+
+
+2017-01-19T15:31:22.484160Z
+dc87b39d6cf2e72bc283b4749dd29bb7
+2017-01-19T15:24:38.388548Z
+3
+baooo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6801
+
+Cache
+dir
+
+Common
+dir
+
+Iterator
+dir
+
+Mock
+dir
+
+TestData
+dir
+
+Inflection
+dir
+
+Stream
+dir
+
+Parser
+dir
+
+Plugin
+dir
+
